@@ -3,10 +3,10 @@ public class newss {
         String day ="sunday";
         String result = "";
 
-        switch(day){
-            case "monday","tuesday" -> System.out.println("6 am");
-            case "sunday" -> System.out.println("10 am");
-            case "wednesday" ->System.out.println("5 am");
+        result = switch(day){
+            case "monday","tuesday" -> ("6 am");
+            case "sunday" -> ("10 am");
+            case "wednesday" ->("5 am");
         }
     }
 }
