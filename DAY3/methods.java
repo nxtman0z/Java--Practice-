@@ -2,6 +2,8 @@ public class methods{
     public static void main(String[] args){
         Computer com = new Computer();
         com.playMusic();
+        String str = com.getPen();
+        System.out.println(str);
     }
 }
 class Computer{
