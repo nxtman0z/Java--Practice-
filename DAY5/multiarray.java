@@ -4,7 +4,7 @@ public class multiarray {
 
         for (int i =0;i <3;i++){
             for(int j =0;j<4;j++){
-                num[i][j] = (int)(Math.random()*100);
+                num[i][j] = (int)(Math.random()*10);
                 System.out.println(num[i][j]);
             }
         }
