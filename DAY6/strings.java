@@ -2,7 +2,12 @@
 
 public class strings {
     public static void main(String[] args) {
-        StringBuffer sb = new StringBuffer();
-        System.out.println(sb.capacity());
+        StringBuffer sb = new StringBuffer("manoj");
+        System.out.println(sb.length());
+
+        sb.append("uchiha");
+        System.out.println(sb);
+
+        String str = sb.toString();
     }
 }
