@@ -1,6 +1,6 @@
 class Human{
-    private int age = 21;
-    private String name = "mano";
+    private int age ;
+    private String name ;
 
     public int getAge(){
         return age;
