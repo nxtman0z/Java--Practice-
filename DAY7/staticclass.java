@@ -18,9 +18,9 @@ public class staticclass {
 
         Mobile mob2 = new Mobile();
 
-        mob1.brand="smasung";
-        mob1.price = 50000;
-        mob1.name ="smartphone";
+        mob2.brand="smasung";
+        mob2.price = 50000;
+        mob2.name ="smartphone";
 
         mob1.all();
         mob2.all();
