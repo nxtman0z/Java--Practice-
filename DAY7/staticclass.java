@@ -2,7 +2,7 @@
 class Mobile{
     String brand;
     int price;
-    String name;
+    static String name;
 
     public void all(){
         System.out.println(brand + price + name);
@@ -21,6 +21,8 @@ public class staticclass {
         mob2.brand="smasung";
         mob2.price = 50000;
         mob2.name ="smartphone";
+
+        mob1.name = "phone";
 
         mob1.all();
         mob2.all();
