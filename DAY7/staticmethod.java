@@ -1,16 +1,17 @@
-class Mobile{
-    static int price;
+class Mobile {
+    static int price = 10000;
     String name;
 
-    public static void all(){
-        System.out.println(price);
+    public void show() {
+        System.out.println(name + " " + price);
     }
 }
 
 public class staticmethod {
     public static void main(String[] args) {
-        Mobile.price =1000;
-        Mobile.all();
+        Mobile m1 = new Mobile();
+        m1.name = "iPhone";
+
+        m1.show();
     }
-    
 }
