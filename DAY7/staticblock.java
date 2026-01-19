@@ -27,6 +27,7 @@ public Mobile(){
 
 public class staticblock {
     public static void main(String[] args) {
+        
         // Mobile m1 = new Mobile();
         // m1.brand = "apple";
         // m1.price = 1000;
