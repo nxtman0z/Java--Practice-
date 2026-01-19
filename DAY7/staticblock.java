@@ -23,15 +23,14 @@ public Mobile(){
     }
 }
 
-//static block
 
 
 public class staticblock {
     public static void main(String[] args) {
-        Mobile m1 = new Mobile();
-        m1.brand = "apple";
-        m1.price = 1000;
-        Mobile.name = "smartphone";
-        Mobile m2 = new Mobile();
+        // Mobile m1 = new Mobile();
+        // m1.brand = "apple";
+        // m1.price = 1000;
+        // Mobile.name = "smartphone";
+        // Mobile m2 = new Mobile();
     }
 }
