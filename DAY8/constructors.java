@@ -10,5 +10,6 @@ class Human{
 public class constructors {
     public static void main(String[] args) {
         Human obj = new Human();
+        Human obj2 = new Human();
     }
 }
