@@ -1,7 +1,7 @@
 public class wrapperclass {
     public static void main(String[] args) {
 
-        int a = 10;
+        int a = 14;
 
         Integer obj = a;   
         int b = obj;       
