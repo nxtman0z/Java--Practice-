@@ -8,7 +8,7 @@ abstract class Shape{
 class Circle extends Shape{
     @Override
     void draw(){
-        System.out.println("drawing a circle");
+        System.out.println("drawing circle");
     }
 }
 
