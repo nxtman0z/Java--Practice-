@@ -15,7 +15,13 @@ enum Laptop{
 
 public class enumclass {
     public static void main(String[] args) {
-        Laptop lap = Laptop.Mackbook;
-        System.out.println(lap + ":" + lap.getPrice());
+        // Laptop lap = Laptop.Mackbook;
+        // System.out.println(lap + ":" + lap.getPrice()
+        // );
+
+
+        for(Laptop lap : Laptop.values()){
+            System.out.println(lap + ":" + lap.getPrice());
+        }
     }
 }
