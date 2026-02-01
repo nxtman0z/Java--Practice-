@@ -9,7 +9,7 @@ public class enums {
         
         for(Status s1 : ss)
         {
-            System.out.println(s1);
+            System.out.println(s1+ " :" +s1.ordinal());
         }
     }
 }
