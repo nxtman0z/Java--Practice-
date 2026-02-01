@@ -4,6 +4,12 @@ enum Status{
 }
 public class enums {
     public static void main(String[] args) {
-        Status s= Status.Running;
+        Status[] ss= Status.values();
+
+        
+        for(Status s1 : ss)
+        {
+            System.out.println(s1);
+        }
     }
 }
