@@ -1,11 +1,15 @@
 @FunctionalInterface
 interface A{
-    void show();
+    void show(int i);
 }
 
 public class lambdaexpression {
     public static void main(String[] args) {
-        A obj = () -> System.out.println("in show");
-        obj.show();
+        A obj =  new A() {
+            public void show(int i){
+                System.out.println("in show0" + i);
+            }
+        };
+        obj.show(6);
     }
 }
