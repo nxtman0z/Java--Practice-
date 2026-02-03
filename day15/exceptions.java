@@ -2,7 +2,7 @@
 
 public class exceptions {
     public static void main(String[] args) {
-        int i =0;
+        int i =7;
         int j = 0;
         try {
             j = 18/i;
