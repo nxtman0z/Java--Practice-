@@ -10,3 +10,9 @@ public class lambda {
         System.out.println(result);
     }
 }
+
+
+
+
+
+
