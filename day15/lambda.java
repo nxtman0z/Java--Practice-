@@ -1,16 +1,16 @@
 @FunctionalInterface
 interface A{
-    void show();
+    void show(int i);
 }
 
 public class lambda {
     public static void main(String[] args) {
-        A obj =  () ->
+        A obj =  i ->
         
             
                 System.out.println("in show0" );
             
         
-        obj.show();
+        obj.show(5);
     }
 }
