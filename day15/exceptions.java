@@ -16,7 +16,7 @@ public class exceptions {
             System.out.println("cannot divide by zero");
         }
         catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("stay in your range");
+            System.out.println("stay in your ");
         }
         System.out.println(j);
     }
