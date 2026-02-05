@@ -8,6 +8,9 @@ class A{
     }
 }
 public class ducking {
+    static{
+        System.out.println("class loader in java");
+    }
     public static void main(String[] args) {
         A obj = new A();
         obj.show();
