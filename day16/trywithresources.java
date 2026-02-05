@@ -8,11 +8,12 @@ public class trywithresources {
         try {
             j = 18/i;
         } 
-        catch(Exception e){
-            System.out.println("get lost");
-        }
+        // catch(Exception e){
+        //     System.out.println("get lost");
+        // }
         
         finally {
+            System.out.println("bye");
         }
     }
 }
