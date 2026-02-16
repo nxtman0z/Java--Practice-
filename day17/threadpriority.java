@@ -32,8 +32,8 @@ public class threadpriority {
         A obj1 = new A();
         B obj2 = new B();
 
-        obj1.run();
-        obj2.run();
+        obj1.start();
+        obj2.start();
 
     }
 }
