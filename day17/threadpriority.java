@@ -6,7 +6,7 @@ class A extends Thread{
             
                 Thread.sleep(10);
             } catch (InterruptedException ex) {
-                System.getLogger(A.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
+                
             }
         }
     }
@@ -20,7 +20,7 @@ class B extends Thread{
             
                 Thread.sleep(10);
             } catch (InterruptedException ex) {
-                System.getLogger(A.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
+                
             }
         }
     }
