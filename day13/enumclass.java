@@ -1,3 +1,5 @@
+
+
 enum Laptop{
     Mackbook(2000),Xps(2200),Surface(1500),Thinkpad(2400);
     private int price;
